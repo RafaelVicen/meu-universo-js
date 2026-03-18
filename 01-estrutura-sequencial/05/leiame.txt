@@ -1,0 +1,25 @@
+. O que são Comparações?
+São operações que não retornam números, mas sim um valor booleano: true (verdadeiro) ou false (falso).
+
+Diferem das operações aritméticas (como soma ou divisão) porque o objetivo é testar uma condição.
+
+2. Operadores de Igualdade e Diferença
+Igualdade Solta (==): Compara apenas o valor. Devido à tipagem fraca do JS, 80 == "80" é verdadeiro porque o motor converte os tipos para comparar o conteúdo.
+
+Igualdade Estrita (===): Compara o valor e o tipo. Aqui, 80 === "80" é falso, pois um é número e o outro é texto.
+
+Diferença Solta (!=): Verifica se os valores são diferentes, ignorando o tipo.
+
+Diferença Estrita (!==): Verifica se os valores ou os tipos são diferentes.
+
+3. Operadores de Magnitude (Maior e Menor)
+Maior que (>) e Menor que (<): Comparam se um valor numérico é superior ou inferior a outro.
+
+Maior ou Igual (>=) e Menor ou Igual (<=): Incluem a possibilidade de os valores serem exatamente iguais.
+
+4. Comparação com Strings (Texto)
+A comparação de texto segue a ordem alfabética (baseada na tabela Unicode).
+
+Exemplo: "golias" < "Helmet" é testado letra por letra.
+
+Atenção: O JS diferencia maiúsculas de minúsculas. Geralmente, as letras maiúsculas vêm "antes" das minúsculas na tabela de caracteres.

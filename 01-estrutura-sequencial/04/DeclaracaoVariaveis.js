@@ -77,11 +77,14 @@ console.log(departureconfirmation)
 // o prompt ele tbm retorna valor
 // eu posso ter aqui por exemplo
 let pilot = prompt ("Qual seu nome piloto")
-console.log(pilot) 
-//entao eu to a chamar o prompt e eu vou atribuir o retorno do prompt na variavel pilot
-// quando eu fizer isso, vai exibir o prompt e eu vou poder escrever um texto la dentro
-// o valor que eu digitar, eh o valor que o prompt vai retornar quando eu digitar ok
+console
+  .log(pilot)
+  //entao eu to a chamar o prompt e eu vou atribuir o retorno do prompt na variavel pilot
+  // quando eu fizer isso, vai exibir o prompt e eu vou poder escrever um texto la dentro
+  // o valor que eu digitar, eh o valor que o prompt vai retornar quando eu digitar ok
 
-//se eu fizer a mesma coisa e ao inves de clicar ok e apertar em cancelar, ele vai retornar null
-//quando nos aprtar em cancelar ele vai retornar null que significa nada
-//
+  //se eu fizer a mesma coisa e ao inves de clicar ok e apertar em cancelar, ele vai retornar null
+  //quando nos aprtar em cancelar ele vai retornar null que significa nada
+  //
+  .toFixed(2);//serve para delimitar quantas casas decimais deve ter a saida, se 
+  //duas, tres, ou mais
