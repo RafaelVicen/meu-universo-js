@@ -12,10 +12,16 @@ let b = Number(prompt("Digite o valor do segundo cateto: "));
 //let soma = Math.pow(a, 2) + Math.pow(b, 2);
 //hipotenusa = Math.sqrt(soma);
 //hipotenusa = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+let hipotenusa = Math.hypot(a, b);
+console.log(`O valor da hipotenusa é: ${hipotenusa}`);
+//console.log(hipotenusa);
 
-console.log(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
+//console.log(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
 //primeiro ele vai fazer as duas potencias
 //depois ele vai somar tudo
 //depois da soma vai fazer a raiz quadrada
 // o resultado da raiz quadrada
 //ele vai escrever no documento
+//O Math.hypot(a, b) calcula automaticamente $\sqrt{a^2 + b^2}$,
+//  o que evita erros 
+// de parênteses e deixa o código bem mais limpo.
